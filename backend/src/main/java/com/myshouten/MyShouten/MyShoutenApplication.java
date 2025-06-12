@@ -1,4 +1,4 @@
-package com.myshouten;
+package com.myshouten.MyShouten;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
