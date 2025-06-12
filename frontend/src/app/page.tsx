@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { Business } from '@/types/business';
 import { businessService } from '@/services/businessService';
 import BusinessCard from '@/components/BusinessCard';
@@ -45,9 +46,17 @@ export default function Home() {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold text-center mb-8">
-                Welcome to MyShouten
-            </h1>
+            <div className="flex justify-between items-center mb-8">
+                <h1 className="text-4xl font-bold">
+                    Welcome to MyShouten
+                </h1>
+                <Link
+                    href="/businesses/new"
+                    className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+                >
+                    Add Business
+                </Link>
+            </div>
             <p className="text-center text-gray-600 mb-8">
                 Your gateway to local businesses in Japan
             </p>
