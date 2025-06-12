@@ -1,10 +1,10 @@
 spring:
   application:
-    name: unishop
+    name: myshouten
   
   # Database Configuration
   datasource:
-    url: jdbc:postgresql://localhost:5432/unishop
+    url: jdbc:postgresql://localhost:5432/myshouten
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
@@ -35,7 +35,7 @@ spring:
       stack:
         auto: false
       s3:
-        bucket: unishop-storage
+        bucket: myshouten-storage
 
 # JWT Configuration
 jwt:
@@ -52,5 +52,5 @@ server:
 logging:
   level:
     root: INFO
-    com.unishop: DEBUG
+    com.myshouten: DEBUG
     org.springframework.security: INFO 

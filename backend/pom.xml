@@ -11,10 +11,10 @@
         <relativePath/>
     </parent>
     
-    <groupId>com.unishop</groupId>
-    <artifactId>unishop</artifactId>
+    <groupId>com.myshouten</groupId>
+    <artifactId>myshouten</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>UniShop</name>
+    <name>MyShouten</name>
     <description>Unified Local Business Platform</description>
     
     <properties>

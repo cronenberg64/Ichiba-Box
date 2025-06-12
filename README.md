@@ -1,6 +1,6 @@
-# UniShop - Unified Local Business Platform
+# MyShouten - Unified Local Business Platform
 
-UniShop is a comprehensive platform designed to connect local businesses with customers in Japan, providing a unified solution for digital storefronts, customer engagement, and business analytics.
+MyShouten is a comprehensive platform designed to connect local businesses with customers in Japan, providing a unified solution for digital storefronts, customer engagement, and business analytics.
 
 ## Features
 
@@ -45,7 +45,7 @@ UniShop is a comprehensive platform designed to connect local businesses with cu
 
 ## Project Structure
 ```
-unishop/
+myshouten/
 ├── backend/           # Spring Boot application
 ├── frontend/         # Next.js application
 ├── docker/           # Docker configuration
@@ -65,8 +65,8 @@ unishop/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/unishop.git
-cd unishop
+git clone https://github.com/yourusername/myshouten.git
+cd myshouten
 ```
 
 2. Backend Setup
