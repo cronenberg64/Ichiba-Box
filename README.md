@@ -1,4 +1,4 @@
-# MyShouten - Unified Local Business Platform
+# Ichiba Box （市場ボックス） - Unified Local Business Platform
 
 MyShouten is a comprehensive platform designed to connect local businesses with customers in Japan, providing a unified solution for digital storefronts, customer engagement, and business analytics.
 
